@@ -13,9 +13,9 @@ import { WhyUs } from './components/WhyUs'
 function App() {
   return (
     <div className="flex flex-col">
-      {/* Exactly one viewport: header + hero fill the screen; no peek of next section */}
-      <div className="flex h-svh max-h-svh min-h-0 flex-col overflow-hidden">
-        <Header />
+      <Header />
+      {/* Full viewport fold: hero (dark) fills 100svh; header is fixed above it */}
+      <div className="h-svh max-h-svh min-h-0 overflow-hidden">
         <Hero />
       </div>
       <main>

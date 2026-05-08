@@ -14,8 +14,8 @@ export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="relative z-50 shrink-0 border-b border-ink-800/15 bg-surface/95 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4 md:h-16 md:gap-4 md:px-6">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-ink-800/15 bg-surface/95 backdrop-blur-md">
+      <div className="relative mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4 md:h-16 md:gap-4 md:px-6">
         <a
           href="#top"
           className="font-display text-2xl font-semibold tracking-tight text-ink-950 md:text-3xl"

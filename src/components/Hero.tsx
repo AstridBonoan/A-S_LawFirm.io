@@ -2,16 +2,16 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-0 flex-1 flex-col justify-center overflow-hidden bg-ink-950 px-4 py-3 text-on-inverse md:px-6 md:py-4"
+      className="relative box-border flex h-full min-h-0 flex-col justify-center overflow-hidden bg-ink-950 px-4 pb-4 pt-[4.5rem] text-on-inverse md:px-6 md:pb-5 md:pt-20"
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-45"
+        className="pointer-events-none absolute inset-0 z-0 opacity-45"
         style={{
           backgroundImage:
             'radial-gradient(ellipse 75% 55% at 72% 18%, rgba(100,148,190,0.22), transparent 58%), radial-gradient(ellipse 45% 42% at 12% 78%, rgba(47,79,115,0.45), transparent 52%)',
         }}
       />
-      <div className="relative mx-auto w-full max-w-6xl">
+      <div className="relative z-[1] mx-auto w-full max-w-6xl">
         <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent-muted sm:mb-2 sm:text-xs sm:tracking-[0.2em]">
           New York metropolitan corporate counsel
         </p>
