@@ -112,8 +112,8 @@ export function Header() {
           aria-modal="true"
           aria-label="Site navigation"
           inert={!open ? true : undefined}
-          className={`fixed left-0 top-0 z-[60] flex h-[100dvh] w-[min(88vw,20rem)] flex-col border-r border-ink-800/15 bg-surface shadow-2xl transition-transform duration-300 ease-out ${
-            open ? 'translate-x-0' : '-translate-x-full'
+          className={`fixed right-0 top-0 z-[60] flex h-[100dvh] w-[min(88vw,20rem)] flex-col border-l border-ink-800/15 bg-surface shadow-2xl transition-transform duration-300 ease-out ${
+            open ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
           <div className="flex shrink-0 items-center justify-between border-b border-ink-800/12 px-4 py-3 pt-[max(0.75rem,env(safe-area-inset-top))]">
