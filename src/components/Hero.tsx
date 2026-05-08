@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[calc(100svh-4.5rem)] flex-col justify-center overflow-hidden bg-ink-950 py-4 text-on-inverse sm:py-5 md:min-h-[calc(100svh-5rem)] md:py-6"
+      className="relative flex min-h-0 flex-1 flex-col justify-center overflow-hidden bg-ink-950 px-4 py-3 text-on-inverse md:px-6 md:py-4"
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-45"
@@ -11,8 +11,8 @@ export function Hero() {
             'radial-gradient(ellipse 75% 55% at 72% 18%, rgba(100,148,190,0.22), transparent 58%), radial-gradient(ellipse 45% 42% at 12% 78%, rgba(47,79,115,0.45), transparent 52%)',
         }}
       />
-      <div className="relative mx-auto w-full max-w-6xl px-4 md:px-6">
-        <p className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent-muted sm:mb-2 sm:text-xs sm:tracking-[0.2em]">
+      <div className="relative mx-auto w-full max-w-6xl">
+        <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent-muted sm:mb-2 sm:text-xs sm:tracking-[0.2em]">
           New York metropolitan corporate counsel
         </p>
         <h1 className="font-display text-[clamp(1.45rem,1.35vw+1rem,2.55rem)] font-semibold leading-[1.1] tracking-tight lg:leading-[1.12]">
@@ -21,13 +21,13 @@ export function Hero() {
             starting, scaling, or restructuring
           </span>
         </h1>
-        <p className="mt-3 max-w-2xl text-sm leading-snug text-on-inverse/88 sm:mt-4 sm:text-base sm:leading-relaxed md:text-lg">
+        <p className="mt-2 max-w-2xl text-sm leading-snug text-on-inverse/88 sm:mt-3 sm:text-base sm:leading-relaxed md:text-lg">
           Whether you are filing your first formation documents or preparing for
           a transformative financing, A&amp;S Law works alongside founders,
           in-house teams, and boards — with the same lifecycle-minded approach
           you would expect from a dedicated corporate practice.
         </p>
-        <p className="mt-2 max-w-2xl text-xs font-medium leading-snug text-on-inverse sm:mt-3 sm:text-sm md:text-base">
+        <p className="mt-2 max-w-2xl text-xs font-medium leading-snug text-on-inverse sm:mt-2.5 sm:text-sm md:text-base">
           <a
             href="tel:+12125550100"
             className="text-accent-muted underline decoration-accent-muted/40 underline-offset-2 transition-colors hover:decoration-accent-muted sm:underline-offset-4"
@@ -38,7 +38,7 @@ export function Hero() {
           and federal rules apply to your operations before issues become
           crises.
         </p>
-        <div className="mt-4 flex flex-wrap gap-2 sm:mt-5 sm:gap-3 md:mt-6">
+        <div className="mt-3 flex flex-wrap gap-2 sm:mt-4 sm:gap-3 md:mt-5">
           <a
             href="#contact"
             className="inline-flex rounded-sm bg-on-inverse px-4 py-2.5 text-xs font-semibold text-ink-950 shadow-sm transition-opacity hover:opacity-90 sm:px-5 sm:py-3 sm:text-sm"

@@ -12,10 +12,13 @@ import { WhyUs } from './components/WhyUs'
 
 function App() {
   return (
-    <div className="min-h-svh flex flex-col">
-      <Header />
-      <main className="flex-1">
+    <div className="flex flex-col">
+      {/* Exactly one viewport: header + hero fill the screen; no peek of next section */}
+      <div className="flex h-svh max-h-svh min-h-0 flex-col overflow-hidden">
+        <Header />
         <Hero />
+      </div>
+      <main>
         <PracticeAreas />
         <CorporateSecurities />
         <Compliance />
